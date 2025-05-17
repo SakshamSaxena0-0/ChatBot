@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: Chatbot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run streamlit_app.py --server.port=10000"
-    envVars:
-      - key: GROQ_API_KEY
-        value: gsk_YourActualKeyHere
